@@ -3,7 +3,7 @@ const { route } = require('.');
 var router = express.Router();
 
 router.get("/", (req, res) => {
-  const newYear = new Date().getFullYear
+  const newYear = new Date().getFullYear()
   res.json({year: newYear });
 });
 
